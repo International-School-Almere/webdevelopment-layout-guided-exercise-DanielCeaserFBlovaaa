@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Student Layout Practice - Homepage</title>
+  </head>
+
+  <body>
+    <!-- Skip link for accessibility -->
+    <a href="#main">Skip to main content</a>
+
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="#">
+          <img
+            src="https://picsum.photos/seed/brandlogo/80/80"
+            alt="Brand logo"
+            width="80"
+            height="80"
+          />
+        </a>
+        <strong>BrightSide Studio</strong>
+        <p>Design • Build • Learn</p>
+      </div>
+
+      <!-- Navigation (no CSS on purpose) -->
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <!-- Main -->
+    <main id="main">
+      <!-- Hero -->
+      <section>
+        <h1 id="hero-title">Build layouts with real HTML structure</h1>
+        <p>
+          This homepage has <strong>no CSS</strong>. Use it to practice layout,
+          spacing, and responsiveness.
+        </p>
+
+        <figure>
+          <img
+            src="https://picsum.photos/seed/heroimage/1200/500"
+            alt="Abstract workspace photo used as a hero banner"
+            width="1200"
+            height="500"
+          />
+          <figcaption>
+            Hero image (replace with your own images later).
+          </figcaption>
+        </figure>
+
+        <p>
+          <a href="#contact">Get a quote</a> | <a href="#work">View our work</a>
+        </p>
+      </section>
+
+      <hr />
+
+      <!-- Quick stats -->
+      <section>
+        <h2 id="stats-title">At a glance</h2>
+        <ul>
+          <li><strong>12</strong> projects shipped this term</li>
+          <li><strong>3</strong> core services</li>
+          <li><strong>100%</strong> student-editable layout</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <!-- Services -->
+      <section id="services">
+        <h2 id="services-title">Services</h2>
+        <p>Three example “cards” for students to turn into a grid or flex layout.</p>
+
+        <article>
+          <img
+            src="https://picsum.photos/seed/service1/500/300"
+            alt="Service illustration: web design"
+            width="500"
+            height="300"
+          />
+          <h3>Website Design</h3>
+          <p>Create clear, accessible page layouts and user flows.</p>
+          <ul>
+            <li>Wireframes</li>
+            <li>Content structure</li>
+            <li>Accessibility basics</li>
+          </ul>
+          <p><a href="#contact">Learn more</a></p>
+        </article>
+
+        <article>
+          <img
+            src="https://picsum.photos/seed/service2/500/300"
+            alt="Service illustration: development"
+            width="500"
+            height="300"
+          />
+          <h3>Front-end Development</h3>
+          <p>Turn designs into responsive pages with clean HTML and CSS.</p>
+          <ul>
+            <li>Semantic HTML</li>
+            <li>Responsive layout</li>
+            <li>Performance basics</li>
+          </ul>
+          <p><a href="#contact">Learn more</a></p>
+        </article>
+
+        <article>
+          <img
+            src="https://picsum.photos/seed/service3/500/300"
+            alt="Service illustration: branding"
+            width="500"
+            height="300"
+          />
+          <h3>Brand & Content</h3>
+          <p>Make pages feel consistent with typography and messaging.</p>
+          <ul>
+            <li>Headlines</li>
+            <li>Call-to-actions</li>
+            <li>Visual identity</li>
+          </ul>
+          <p><a href="#contact">Learn more</a></p>
+        </article>
+      </section>
+
+      <hr />
+
+      <!-- Featured work -->
+      <section id="work">
+        <h2 id="work-title">Featured work</h2>
+        <p>Use these items to practice a responsive gallery layout.</p>
+
+        <figure>
+          <a href="#">
+            <img
+              src="https://picsum.photos/seed/work1/600/400"
+              alt="Project screenshot 1"
+              width="600"
+              height="400"
+            />
+          </a>
+          <figcaption>
+            <strong>Project Alpha</strong> — Landing page redesign
+          </figcaption>
+        </figure>
+
+        <figure>
+          <a href="#">
+            <img
+              src="https://picsum.photos/seed/work2/600/400"
+              alt="Project screenshot 2"
+              width="600"
+              height="400"
+            />
+          </a>
+          <figcaption>
+            <strong>Project Beacon</strong> — Portfolio site layout
+          </figcaption>
+        </figure>
+
+        <figure>
+          <a href="#">
+            <img
+              src="https://picsum.photos/seed/work3/600/400"
+              alt="Project screenshot 3"
+              width="600"
+              height="400"
+            />
+          </a>
+          <figcaption>
+            <strong>Project Cascade</strong> — Product feature grid
+          </figcaption>
+        </figure>
+      </section>
+
+      <hr />
+
+      <!-- About -->
+      <section id="about">
+        <h2 id="about-title">About us</h2>
+
+        <img
+          src="https://picsum.photos/seed/team/500/500"
+          alt="Team photo placeholder"
+          width="500"
+          height="500"
+        />
+
+        <p>
+          We help students and teams learn layout by starting with structure.
+          Add CSS to create columns, spacing, alignment, and responsive behavior.
+        </p>
+
+        <h3>What students can practice here</h3>
+        <ol>
+          <li>Header layout (logo + nav)</li>
+          <li>Hero section spacing and buttons</li>
+          <li>Three-column services card layout</li>
+          <li>Responsive gallery</li>
+          <li>Two-column “about” layout</li>
+          <li>Form layout and footer columns</li>
+        </ol>
+      </section>
+
+      <hr />
+
+      <!-- Blog preview -->
+      <section id="blog">
+        <h2 id="blog-title">Latest posts</h2>
+
+        <article>
+          <h3><a href="#">How to turn HTML sections into a clean layout</a></h3>
+          <p><small>Posted on <time datetime="2026-02-11">Feb 11, 2026</time></small></p>
+          <p>
+            Start with a grid: header, hero, cards, gallery, and footer.
+            Then make it responsive.
+          </p>
+        </article>
+
+        <article>
+          <h3><a href="#">Common mistakes with flexbox and spacing</a></h3>
+          <p><small>Posted on <time datetime="2026-02-04">Feb 4, 2026</time></small></p>
+          <p>
+            Learn how to avoid uneven card heights, awkward gaps, and
+            overflowing images.
+          </p>
+        </article>
+
+        <article>
+          <h3><a href="#">Accessible navigation with semantic HTML</a></h3>
+          <p><small>Posted on <time datetime="2026-01-28">Jan 28, 2026</time></small></p>
+          <p>
+            Use landmarks, descriptive link text, and consistent headings.
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2 id="contact-title">Contact</h2>
+        <p>Students can style and align this form with CSS.</p>
+
+        <form action="#" method="post">
+          <p>
+            <label for="name">Name</label><br />
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </p>
+
+          <p>
+            <label for="email">Email</label><br />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="topic">Topic</label><br />
+            <select id="topic" name="topic">
+              <option value="layout">Layout help</option>
+              <option value="website">Website project</option>
+              <option value="feedback">Feedback</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Message</label><br />
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+          </p>
+        </form>
+
+        <address>
+          <p><strong>BrightSide Studio</strong></p>
+          <p>Example Street 10, 1000 AB, Amsterdam</p>
+          <p><a href="tel:+31201234567">+31 20 123 4567</a></p>
+          <p><a href="mailto:hello@example.com">hello@example.com</a></p>
+        </address>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+        
+        <section>
+            <h2 id="footer-heading">Footer</h2>
+
+            <div>
+            <strong>BrightSide Studio</strong>
+            <p>Design • Build • Learn</p>
+            </div>
+
+            <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            </nav>
+
+            <address>
+            <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+            <p>Phone: <a href="tel:+31201234567">+31 20 123 4567</a></p>
+            </address>
+
+            <p>
+            <small>&copy; 2026 BrightSide Studio. All rights reserved.</small>
+            </p>
+        </section>
+    </footer>
+  </body>
+</html>

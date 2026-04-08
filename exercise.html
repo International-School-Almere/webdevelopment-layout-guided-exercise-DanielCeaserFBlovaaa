@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>4 Boxes (No Layout)</title>
+  <style>
+    /* Boxes are named here, but no layout is applied */
+    /* * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+     */
+    body {
+        background-color: #f0f0f0;
+        
+        font-family: Arial, sans-serif;
+    }
+    .example {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 80px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+    .box-one {
+        }
+    .box-two {
+        }
+
+    .box-three {}
+    .box-four {}
+
+    section {
+        background-color: #e39d9d;
+        padding: 20px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+         */ */
+    }
+
+    nav {
+        background-color: #ebb3b3;
+        padding: 10px;
+        display: flex;
+        
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    /* Optional: minimal styling so you can see the boxes (still no layout system) */
+    .box {
+        display: inline-block;
+        border: 1px solid black;
+        padding: 16px;
+    
+     
+      
+    }
+  </style>
+</head>
+<body>
+    
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="example">
+        <h1> example</h1>
+        <p> This is an example of a paragraph</p>
+    </div>
+    <section>
+        <div class="box box-one">
+            <h1> Box 1</h1>
+        </div>
+            
+        <div class="box box-two">
+            <h1> Box 2</h1>
+        </div>
+            
+        <div class="box box-three">
+            <h1> Box 3: this is a stupid test</h1>
+        </div>
+            
+        <div class="box box-four">
+            <h1> Box 4</h1>
+        </div>
+    </section>
+    
+</body>
+</body>
+</html>
